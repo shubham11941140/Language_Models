@@ -44,3 +44,18 @@ c) I think there is a brittle likeness between us.
 d) Her gather fondly replied.
 e) He raw his son every year.
 ```
+
+### 5. Results
+
+Non-Word Error:
+
+![image](https://user-images.githubusercontent.com/63910248/205891792-9c1394ff-2d91-4d01-b310-fa9fd7060d63.png)
+
+Real-Word Error:
+
+![image](https://user-images.githubusercontent.com/63910248/205891880-1e15ceff-ccc5-42e1-ad2e-062a428b533d.png)
+
+
+
+
+
