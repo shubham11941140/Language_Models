@@ -84,5 +84,21 @@ d) “Ihavetobesomewhatcarefulinmychoiceofwords”
 
 ![image](https://user-images.githubusercontent.com/63910248/205895867-d6dcccd9-96cc-482f-b3b5-605af57d8822.png)
 
+## Evaluation of language models (Bigram, Trigram and Quadgram)
 
+### 1. Dataset Used for training the language model
+    (i) Webtext Corpus: 1 million words The webtext corpus includes content from a Firefox discussion forum, conversations overheard in New York, Pirates of the  Caribbean movie scripts, personal advertisements, and wine reviews.
+
+### 2. Methodology
+    (i) Preprocessing: Tokenization, removal of punctuations, removal of stop words, removal of numbers, removal of words with length less than 3
+    (ii) Split into train and test set (70:30)
+    (iii) Evaluation: Perplexity
+
+### 3. Results
+
+Bigram:
+
+Trigram:
+
+Quadgram:
 
