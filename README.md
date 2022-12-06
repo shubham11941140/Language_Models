@@ -5,7 +5,7 @@ Contains 3 components:
 
 1. Spelling correction using n-gram language models
 
-2. Next word prediction using n-gram language models
+2. Sequence Extraction using n-gram language models
 
 3. Evaluation of language models
 
@@ -55,6 +55,31 @@ Real-Word Error:
 
 ![image](https://user-images.githubusercontent.com/63910248/205891880-1e15ceff-ccc5-42e1-ad2e-062a428b533d.png)
 
+## Sequence Extraction using n-gram language models
+
+### Sequence Extraction using tri-gram language models
+    Given a sequence of characters with no spaces in between, recover the correct sequence of words. For example, given a text “itdoesnotmattertotheboard”, the extracted sequence should be: - “It”, “does”, “not”, “matter”, “to”, “the”, “board”.
+
+### 2. Dataset Used for training the language model
+    (i) Brown Corpus: 1 million words
+
+### 3. Methodology
+    (i) Preprocessing: Tokenization, removal of punctuations, removal of stop words, removal of numbers, removal of words with length less than 3
+    (ii) Split into train and test set (80:20)
+    (iii) For every statement in the test set, combine it and check if your model can split it correctly
+    (iv) Evaluation: Accuracy, Precision, Recall, F1 Score
+
+### 4. Sample Examples
+
+```
+a) “Myunscientificfrienddoesnotbelievethathumanstatureismeasurablein
+termsofspeed”
+b) “Myhostwentoverandstaredoutthewindowathispeacocks”
+c) “wheninthecourseofhumaneventsitbecomesnecessaryforonepeople”
+d) “Ihavetobesomewhatcarefulinmychoiceofwords”
+```
+
+### 5. Results
 
 
 
