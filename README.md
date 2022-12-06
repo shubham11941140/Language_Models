@@ -67,7 +67,8 @@ Real-Word Error:
     (i) Preprocessing: Tokenization, removal of punctuations, removal of stop words, removal of numbers, removal of words with length less than 3
     (ii) Split into train and test set (80:20)
     (iii) For every statement in the test set, combine it and check if your model can split it correctly
-    (iv) Evaluation: Accuracy, Precision, Recall, F1 Score
+    (iv) one-grams.txt attached to train the model
+    (v) Evaluation: Accuracy, Precision, Recall, F1 Score
 
 ### 4. Sample Examples
 
