@@ -82,6 +82,7 @@ d) “Ihavetobesomewhatcarefulinmychoiceofwords”
 
 ### 5. Results
 
+![image](https://user-images.githubusercontent.com/63910248/205895867-d6dcccd9-96cc-482f-b3b5-605af57d8822.png)
 
 
 
