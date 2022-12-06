@@ -98,7 +98,14 @@ d) “Ihavetobesomewhatcarefulinmychoiceofwords”
 
 Bigram:
 
+![image](https://user-images.githubusercontent.com/63910248/205903853-a0025aca-6058-4d8d-872b-38a6aca8d272.png)
+
+
 Trigram:
 
+![image](https://user-images.githubusercontent.com/63910248/205903892-36f22ed9-5ab1-43ab-b128-18aa7dfc945b.png)
+
 Quadgram:
+
+![image](https://user-images.githubusercontent.com/63910248/205903924-4391ade6-b203-4238-90b6-72b9904edb02.png)
 
