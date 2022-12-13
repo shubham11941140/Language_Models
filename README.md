@@ -1,13 +1,15 @@
 # Language_Models
 Creation of n-gram language models for spelling correction, next word prediction with evaluation
 
-Contains 3 components:
+Contains 4 components:
 
 1. Spelling correction using n-gram language models
 
 2. Sequence Extraction using n-gram language models
 
 3. Evaluation of language models
+
+4. Latin Language models
 
 ## Spelling correction using n-gram language models
 
