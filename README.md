@@ -1,6 +1,8 @@
 # Language_Models
 Creation of n-gram language models for spelling correction, next word prediction with evaluation
 
+Language models are statistical models that assign a probability to a sequence of words. They are used in Natural Language Processing (NLP) to predict the next word in a sequence. They are also used to generate text. The language model is trained on a large corpus of text. The model is then used to predict the next word in a sequence of words.
+
 Contains 4 components:
 
 1. Spelling correction using n-gram language models
@@ -111,3 +113,39 @@ Quadgram:
 
 ![image](https://user-images.githubusercontent.com/63910248/205903924-4391ade6-b203-4238-90b6-72b9904edb02.png)
 
+# Latin Language Model and Evaluation
+
+## Introduction
+
+We build two Laplace Smoothing based language models. One for Latin and the other for English. We use the Latin and English text files provided to train the models.
+
+## Dataset
+
+We are given two text files. One in Latin (lat.txt) and the other in English (eng.txt). The Latin text file contains 1,000,000 words and the English text file contains 1,000,000 words.
+They are hand curated and designed to be similar in style and content.
+
+## Process
+
+We build two Laplace Smoothing based language models. One for Latin and the other for English.
+
+We apply proper sentence segmentation and tokenization to the text files.
+
+Word Normalization is done by converting all the words to lowercase.
+
+We use the Latin and English text files provided to train the models.
+
+## Evaluation
+
+We are given few sentences to test whether the models can predict the correct language of the sentence.
+
+This is done by calculating the probability of the sentence in both the models and comparing the probabilities.
+
+## Results
+
+### Sentence 1: Petitions are filed
+
+![image](https://user-images.githubusercontent.com/63910248/207285826-1b92a9fa-c068-4107-9597-720388673b21.png)
+
+### Sentence 2: Praeses ad omnes aspectus
+
+![image](https://user-images.githubusercontent.com/63910248/207285913-3909a7bc-1aef-424b-8351-c227910f3a28.png)
